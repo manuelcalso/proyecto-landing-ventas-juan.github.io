@@ -1,0 +1,151 @@
+:root {
+    --main-color-1: #ffffff;
+    --main-color-2: #000000;
+    --main-color-3: #FFD89C;
+    --main-backgroundcolor-1: #F2E3DB;
+    --main-backgroundcolor-2: #3D8361;
+    --main-backgroundcolor-3: #D6CDA4;
+    --main-backgroundcolor-4: #41644A;
+
+
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Regular';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Bold';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Black';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Italic';
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Light';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Medium';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Libre Bold';
+    src: url(./fonts/fontss/Libre_Bodoni/static/LibreBodoni-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Extralight';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-ExtraLight.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    background-color: var(--main-color-3);
+}
+body {
+    margin: 0;
+    
+}
+
+.hrelativo {
+    
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: var(--main-backgroundcolor-1);
+    color: var(--main-color-2);
+
+}
+
+.hrelativodiv{
+    
+    height: 100px;
+    width: auto;
+    margin-top: 14px;
+    
+    
+}
+
+.hnavegador {
+    height: 100px;
+    width: auto;
+    
+    margin: 0px 32.500px 0px 32.500px;
+    display: flex;
+    
+}
+
+.hnavegador img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    
+    
+}
+
+
+.hnavegadorp {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cinzel Decorative Black';
+    
+
+}
+
+.hnavegadoropciones {
+    
+    display: flex;
+    margin-left: 14px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cinzel Decorative Regular';
+    color: var(--main-color-2);
+    letter-spacing: 0.020em;
+
+}
+
+.hnavegadoropciones a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.hnavegadoropciones1 {
+    display: flex;
+    margin-left: 250px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cinzel Decorative Bold';
+    color: var(--main-color-2);
+    
+
+}
+
+.hnavegadoropciones1 a {
+    text-decoration: none;
+    color: inherit;
+}
