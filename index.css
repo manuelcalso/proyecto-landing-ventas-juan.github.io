@@ -73,10 +73,14 @@
 }
 html {
     background-color: var(--main-color-3);
+    font-size: 16px;
+    color: #333; 
+    
 }
 body {
     margin: 0;
     padding-top: 100px;
+    
     
 }
 
@@ -212,8 +216,11 @@ footer {
 }
 
 .jumbotrongrid img {
+
     display: grid;
     grid-column: 2;
+    width: auto;
+    height: auto;
     
 }
 
@@ -332,13 +339,14 @@ footer {
     height: auto;
     padding: auto 0px auto 0px;
     
-    position: relative;
+   
     background-color: var(--main-backgroundcolor-5);
     
 }
 
 .relative {
-    position: relative;
+    position: flex;
+    justify-content: center;
     
     width: auto;
     height: auto;   
@@ -365,8 +373,9 @@ footer {
     
     width: auto;
     height: auto;
-    display: inline-block;
-    margin-left: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -448,7 +457,8 @@ footer {
 .adicional {
 
     display: flex;
-    width: 1349px;
+    justify-content: space-around;
+    width: auto;
     height: 558px;
     background-color: var(--main-backgroundcolor-4);
     color: var(--main-color-1);
@@ -642,7 +652,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .gridspan5 {
@@ -670,7 +680,7 @@ footer {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
     .hrelativodiv {
         display: flex;
@@ -716,10 +726,23 @@ footer {
       
     }
 
+    .mainlibros {
+        margin-left: 30px;
+    }
+
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1345px  ) {
+
+    .adicionalimg .imagen2 {
+        display: none;
+    }
+
+ 
+}
+
+@media screen and (max-width: 762px) {
 
     .hrelativodiv {
         display: flex;
@@ -750,5 +773,62 @@ footer {
         display: none
     }
 
+    .jumboemailbutton {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
 }
+
+
+@media screen and (max-width: 330px) {
+
+    .hrelativodiv {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .hnavegador {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .librogrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        
+    }
+    
+    .adicionalblog {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    .adicionalimg .imagen1 {
+        display: none;
+    }
+
+    .jumboemailbutton {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .adicional {
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
 
