@@ -1,0 +1,834 @@
+:root {
+    --main-color-1: #ffffff;
+    --main-color-2: #000000;
+    --main-color-3: #FFD89C;
+    --main-backgroundcolor-1: #F2E3DB;
+    --main-backgroundcolor-2: #3D8361;
+    --main-backgroundcolor-3: #D6CDA4;
+    --main-backgroundcolor-4: #41644A;
+    --main-backgroundcolor-5: #A2CDB0;
+    --main-backgroundcolor-6: #85A389;
+    --main-backgroundcolor-7: #E86A33;
+
+
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Regular';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Bold';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative Black';
+    src: url(./fonts/fontss/Cinzel_Decorative/CinzelDecorative-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Italic';
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Regular';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Light';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Medium';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Libre Bold';
+    src: url(./fonts/fontss/Libre_Bodoni/static/LibreBodoni-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin Extralight';
+    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-ExtraLight.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    background-color: var(--main-color-3);
+    font-size: 16px;
+    color: #333; 
+    
+}
+body {
+    margin: 0;
+    padding-top: 100px;
+    
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 421px;
+    background-color: var(--main-backgroundcolor-7);
+    
+}
+
+
+
+
+.hrelativo {
+    
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+
+
+    width: 100%;
+    
+    background-color: var(--main-backgroundcolor-1);
+    color: var(--main-color-2);
+    
+    border-radius: 5px;
+
+}
+
+.hrelativodiv{   
+    width: auto;
+    
+}
+
+.hnavegador {
+    height: 100px;
+    width: auto;
+    
+    margin: 0px 32.500px 0px 32.500px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hnavegador img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    
+    
+}
+
+
+.hnavegadorp {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cinzel Decorative Black';
+    
+
+}
+
+.hnavegadoropciones {
+    
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cinzel Decorative Regular';
+    color: var(--main-color-2);
+    letter-spacing: 0.020em;
+
+}
+
+
+
+.hnavegadoropciones a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.hnavegadoropciones1 {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Cinzel Decorative Bold';
+    color: var(--main-color-2);
+    
+
+}
+
+.hnavegadoropciones1 a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.jumbotron {
+    width: auto;
+    height: 656px;
+    background-image: url(./assets/background1.png);
+    background-repeat: no-repeat;
+    background-color: var(--main-backgroundcolor-4);
+    background-size:auto;
+    
+}
+
+.jumbotron article {
+    
+    width: auto;
+    height: 656px;
+    padding: 0px auto 0px auto;
+    margin: 0px 20px 0px 20px;
+
+}
+
+
+
+.jumbotrongrid {
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+
+.jumbotrongrid img {
+
+    display: grid;
+    grid-column: 2;
+    width: auto;
+    height: auto;
+    
+}
+
+.jumbotrongrid div {
+    
+    
+    text-align: left;
+    padding: 96px 0px 96px 0px;
+    color: var(--main-backgroundcolor-3);
+}
+
+
+.jumbotronoferta {
+    
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 24px;
+    justify-content: space-between;
+    background-color: var(--main-color-2);
+    color: var(--main-color-1);
+    border-radius: 10px;
+    font-family: 'Josefin Light';
+    text-decoration: none;
+    padding: 5px 0px 0px 0px;
+    grid-column: 1;
+    
+}
+
+.jumbotrongrid h1 {
+    font-family: 'Josefin Sans';
+    margin-top: 25px;
+    font-size: 50px;
+    
+}
+
+.jumbotrongrid p {
+    font-family: 'Josefin Medium';
+    margin-top: auto;
+    font-size: large;
+    
+    width: 450px;
+    color: var(--main-color-1);
+}
+
+.jumboemail {
+    margin-top: 40px;
+    display: flex;
+    width: 492px;
+    height: 100px;
+
+}
+
+.jumboemail input{
+    width: 1000px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.jumboemail label {
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    padding: 10px;
+    color: var(--main-color-2);
+    font-family: 'Josefin Medium';
+    
+}
+
+.jumboemailbutton {
+    display: block;
+    
+    width: 76.188px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.jumboemailbutton button {
+    width: 76.188px;
+    height: 40px;
+    background-color: #72B896;
+    border-radius: 10px;
+    font-family: 'Josefin Medium';
+    display: inline;
+    
+    
+}
+
+.jumboemailbutton a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.jumboemailterminos p{
+    font-family: 'Josefin Extralight';
+
+}
+
+.jumbotrongrid img {
+    width: 660px; 
+    height: 655px;
+
+}
+
+
+
+.jumboemailterminos a {
+        color: inherit;
+}
+
+.mainblog {
+    width: auto;
+    height: auto;
+    padding: auto 0px auto 0px;
+    
+   
+    background-color: var(--main-backgroundcolor-5);
+    
+}
+
+.relative {
+    position: flex;
+    justify-content: center;
+    
+    width: auto;
+    height: auto;   
+}
+
+.bloghead {
+    
+    display: block;
+    text-align: center;
+    padding: 0px 32px 0px 32px;
+    margin: 0px auto 0px auto;
+    
+}
+
+.bloghead p {
+    font-family: 'Josefin Extralight';
+    font-size: large;
+    letter-spacing: 3px;
+    
+
+}
+
+.mainlibros {
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.librogrid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    
+    
+}
+
+.item {
+
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 470px;
+    
+}
+
+.divitemimg {
+    
+    width: auto;
+    height: 293px;
+    margin-left: 85px;
+}
+
+.item  img {
+    width: 210px;
+    height: 310;
+    justify-content: top;
+    
+}
+
+
+.itemtitle{
+    
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Josefin Regular';
+    
+}
+.itemautor {
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Josefin Light';
+}
+
+.itemprecio {
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Josefin Light';
+}
+
+.itembutton {
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.itembuttonbutton {
+    border-radius: 10px;
+    height: 100%;
+    width: 100px;
+    background-color: var(--main-backgroundcolor-3);
+}
+
+.itembutton span {
+    font-family: 'Josefin Medium';
+}
+
+.adicional {
+
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 558px;
+    background-color: var(--main-backgroundcolor-4);
+    color: var(--main-color-1);
+    
+
+}
+
+.adicionalimg  img {
+
+    display: inline-flex;
+    border-radius: 50px 50px ;
+    height: 558px;
+    width: 375px;
+    
+
+}
+
+.adicionalblog {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 528px;
+    margin-left: 50px;
+  
+}
+
+.adicionalblog h2 {
+
+    margin-top: 50px;
+    font-family: 'Josefin Medium';
+    letter-spacing: 0.25rem;
+
+}
+
+.adicionalblog p {
+
+    margin-top: 20px;
+    font-family: 'Josefin Regular';
+    line-height: 30px;
+
+}
+
+.buttton {
+
+    border: 2px solid var(--main-color-2);
+    width: 230px;
+    height: 50px;
+    background-color: var(--main-color-3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Libre Bold';
+
+}
+
+.buttton a {
+    
+    margin-top: 10px;
+    text-decoration: none;  
+    color: inherit;
+
+}
+
+.sectionfooter {
+    display: flex;
+    flex-direction: column;
+    
+    width: 1216px;
+    height: 357px;
+}
+
+.gridfooter {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  
+
+}
+
+.gridspan1 {
+
+    
+    grid-column: 1;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.facebookspan{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+
+}
+
+.faceboosvg {
+    width: 44px;
+    height: 44px;
+}
+
+.instagramsvg {
+    width: 44px;
+    height: 44px;
+}
+
+.instagramspan {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+
+}
+
+.twitterspan {
+
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+
+}
+
+.twittersvg{
+
+    width: 44px;
+    height: 44px;
+
+}
+
+.gridspan2 {
+
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.gridspan2title  {
+    color: var(--main-backgroundcolor-3);
+    font-family: 'Libre Bold';
+}
+
+.gridspan2ul li {
+    list-style: none;
+    font-family: 'Josefin Medium';
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}   
+
+.gridspan3 {
+    
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gridspan3title {
+    color: var(--main-backgroundcolor-3);
+    font-family: 'Libre Bold';
+}
+
+.gridspan3ul li {
+
+    list-style: none;
+    margin-top: 5px;
+    font-family: 'Josefin Medium';
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.gridspan4 {
+
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gridspan5 {
+    
+    grid-column: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derechospagina {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 80px;
+    font-family: 'Josefin Italic';    
+    
+}
+
+.sectionfooter a {
+    color: var(--main-color-2);
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .hrelativodiv {
+        display: flex;
+        height: 130px;
+    }
+
+    .hnavegador {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .jumbotrongrid img {
+        display: none;
+    }
+
+    .jumboemailterminos {
+        height: auto;
+    }
+
+    .librogrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        
+        
+    }
+
+    .adicionalimg .imagen2 {
+        display: none;
+    }
+
+    .adicionalblog {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        width: 400px;
+        height: 528px;
+        margin-left: 25px;
+        
+      
+    }
+
+    .mainlibros {
+        margin-left: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1345px  ) {
+
+    .adicionalimg .imagen2 {
+        display: none;
+    }
+
+ 
+}
+
+@media screen and (max-width: 762px) {
+
+    .hrelativodiv {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .hnavegador {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .librogrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        
+    }
+    
+    .adicionalblog {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .adicionalimg .imagen1 {
+        display: none
+    }
+
+    .jumboemailbutton {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+    .hrelativodiv {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .hnavegador {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .librogrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        
+    }
+    
+    .adicionalblog {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+    .adicionalimg .imagen1 {
+        display: none;
+    }
+
+    .jumboemailbutton {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .adicional {
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
+
