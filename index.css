@@ -75,11 +75,14 @@ html {
     background-color: var(--main-color-3);
     font-size: 16px;
     color: #333; 
+      
     
 }
 body {
     margin: 0;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -384,11 +387,13 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 30px;
     grid-row-gap: 5px;
     
     
 }
+
+
 
 .item {
 
@@ -680,8 +685,8 @@ footer {
 
 
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1000px), (orientation: portrait) {
+    
     .hrelativodiv {
         display: flex;
         height: 130px;
@@ -706,6 +711,10 @@ footer {
         grid-template-rows: 1fr;
         justify-items: center;
         
+    }
+
+    .librogrid img {
+        width: 73%;
     }
 
     .adicionalimg .imagen2 {
@@ -762,6 +771,10 @@ footer {
         
     }
     
+    .librogrid img {
+        width: 73%;
+    }
+
     .adicionalblog {
         display: flex;
         align-items: center;
@@ -892,6 +905,8 @@ footer {
    
 
 }
+
+
 
 
 
