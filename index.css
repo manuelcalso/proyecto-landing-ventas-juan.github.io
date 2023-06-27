@@ -201,7 +201,7 @@ footer {
     width: auto;
     height: 656px;
     padding: 0px auto 0px auto;
-    margin: 0px 20px 0px 20px;
+    margin: 0px auto 0px auto;
 
 }
 
@@ -448,6 +448,7 @@ footer {
     height: 100%;
     width: 100px;
     background-color: var(--main-backgroundcolor-3);
+    color: var(--main-color-2);
 }
 
 .itembutton span {
@@ -706,7 +707,6 @@ footer {
         grid-template-rows: 1fr;
         justify-items: center;
         
-        
     }
 
     .adicionalimg .imagen2 {
@@ -832,6 +832,10 @@ footer {
         
     }
 
+    .jumbotron article {
+        margin: 0px;
+    }
+
    
 
     
@@ -853,6 +857,12 @@ footer {
         display: none;
     }
 
+    .gridfooter {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
     .gridspan1 {
         grid-column: 1;
         display: flex;
@@ -869,7 +879,18 @@ footer {
     .gridspan3 {
         display: flex;
         flex-direction: column;
+
+       
     }
+
+    .gridspan5 {
+        display: none;
+    }
+
+    .sectionfooter {
+        display: flex;        
+    }
+   
 
 }
 
