@@ -528,7 +528,7 @@ footer {
     display: flex;
     flex-direction: column;
     
-    width: 1216px;
+    width: 1200px;
     height: 357px;
 }
 
@@ -795,6 +795,10 @@ footer {
         flex-wrap: wrap;
     }
 
+    .mainlibros {
+        margin-left: 0px;
+    }
+
     .librogrid {
         display: grid;
         grid-template-columns: 1fr;
@@ -806,6 +810,7 @@ footer {
     .adicionalblog {
         display: flex;
         align-items: center;
+        margin: 0px;
         
         
     }
@@ -846,6 +851,24 @@ footer {
 
     .hnavegadoropciones .hiddenopcion {
         display: none;
+    }
+
+    .gridspan1 {
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gridspan2{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .gridspan3 {
+        display: flex;
+        flex-direction: column;
     }
 
 }
