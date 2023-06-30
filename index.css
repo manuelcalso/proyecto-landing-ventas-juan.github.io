@@ -181,6 +181,7 @@ footer {
     color: var(--main-backgroundcolor-7);
     transition-property: color;
     transition-duration: 750s;
+    
 }
 
 .hnavegadoropciones1 {
@@ -199,12 +200,14 @@ footer {
     text-decoration: none;
     color: inherit;
     
+    
 }
 
 .hnavegadoropciones1 a:hover {
     color:var(--main-backgroundcolor-7);
     transition-property: color;
     transition-duration: 750ms;
+    
 
 }
 
@@ -215,6 +218,7 @@ footer {
     background-repeat: no-repeat;
     background-color: var(--main-backgroundcolor-4);
     background-size:auto;
+    
     
 }
 
@@ -243,6 +247,16 @@ footer {
     width: auto;
     height: auto;
     
+    border-radius: 10px;
+    border: 1px solid var(--main-color-2);
+}
+
+.jumbotrongrid img:hover {
+    opacity: 0.9;
+    border-radius: 5px;
+    border: 2px solid var(--main-color-2);
+    transition-property: border;
+    transition-duration: 750ms;
 }
 
 .jumbotrongrid div {
@@ -439,8 +453,8 @@ footer {
 
 .divitemimg {
     
-    width: auto;
-    height: 293px;
+    width: 210px;
+    height: 90%;
     margin-left: 85px;
 }
 
@@ -448,13 +462,15 @@ footer {
     width: 210px;
     height: 90%;
     justify-content: top;
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
     
 }
 
 .item img:hover {
     width: 220px;
     height: 100%;
+    border: 2px solid var(--main-color-2);
+    border-radius: 10px;
     transition-property: height;
     transition-duration: 750ms;
 }
@@ -514,6 +530,8 @@ footer {
     height: 558px;
     background-color: var(--main-backgroundcolor-4);
     color: var(--main-color-1);
+    background-image: url(./assets/holas-libreria.JPG);
+    opacity: 0.9;
     
 
 }
@@ -524,8 +542,13 @@ footer {
     border-radius: 50px 50px ;
     height: 558px;
     width: 375px;
+    border: 1px solid var(--main-color-2);
     
 
+}
+
+.adicionalimg img:hover {
+    border: 2px solid var(--main-color-2)
 }
 
 .adicionalblog {
@@ -536,14 +559,18 @@ footer {
     width: 500px;
     height: 528px;
     margin-left: 50px;
+
+    
+    
   
 }
 
 .adicionalblog h2 {
 
     margin-top: 50px;
-    font-family: 'Josefin Medium';
-    letter-spacing: 0.25rem;
+    font-family: 'Josefin light';
+    letter-spacing: 0.20rem;
+    
 
 }
 
