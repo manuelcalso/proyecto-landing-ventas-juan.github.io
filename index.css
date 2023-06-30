@@ -9,6 +9,7 @@
     --main-backgroundcolor-5: #A2CDB0;
     --main-backgroundcolor-6: #85A389;
     --main-backgroundcolor-7: #E86A33;
+    --main-hovercolor-1:#1ed760;
 
 
 }
@@ -87,6 +88,7 @@ body {
     
 }
 
+
 footer {
     display: flex;
     justify-content: center;
@@ -97,6 +99,8 @@ footer {
     background-color: var(--main-backgroundcolor-7);
     
 }
+
+
 
 
 
@@ -171,6 +175,14 @@ footer {
     
 }
 
+.hnavegadoropciones a:hover {
+    border-bottom: 1px solid var(--main-backgroundcolor-2);
+    border-radius: 10px;
+    color: var(--main-backgroundcolor-7);
+    transition-property: color;
+    transition-duration: 2s;
+}
+
 .hnavegadoropciones1 {
     
     display: flex;
@@ -187,6 +199,13 @@ footer {
     text-decoration: none;
     color: inherit;
     
+}
+
+.hnavegadoropciones1 a:hover {
+    color:var(--main-backgroundcolor-7);
+    transition-property: color;
+    transition-duration: 2s;
+
 }
 
 .jumbotron {
@@ -317,6 +336,20 @@ footer {
 .jumboemailbutton a {
     text-decoration: none;
     color: inherit;
+    font-size: medium;
+}
+
+.jumboemailbutton a:hover {
+    font-size: large;
+    transition-property: font-size;
+    transition-duration: 2s;
+}
+
+.jumboemailbutton button:hover {
+    background-color: var(--main-backgroundcolor-7);
+    transition-property: background-color;
+    transition-duration: 1s;
+
 }
 
 .jumboemailterminos p{
@@ -413,9 +446,17 @@ footer {
 
 .item  img {
     width: 210px;
-    height: 310;
+    height: 90%;
     justify-content: top;
     
+    
+}
+
+.item img:hover {
+    width: 220px;
+    height: 100%;
+    transition-property: height;
+    transition-duration: 2s;
 }
 
 
@@ -453,6 +494,12 @@ footer {
     width: 100px;
     background-color: var(--main-backgroundcolor-3);
     color: var(--main-color-2);
+}
+
+.itembuttonbutton:hover {
+    background-color: var(--main-color-2);
+    color: var(--main-color-3);
+
 }
 
 .itembutton span {
@@ -518,6 +565,7 @@ footer {
     display: flex;
     justify-content: center;
     font-family: 'Libre Bold';
+    color: #000000;
 
 }
 
@@ -526,6 +574,12 @@ footer {
     margin-top: 10px;
     text-decoration: none;  
     color: inherit;
+    
+}
+
+.buttton a:hover {
+
+    color: var(--main-hovercolor-1);
 
 }
 
@@ -566,6 +620,10 @@ footer {
 
 }
 
+.faceboosvg:hover {
+    color: var(--main-hovercolor-1)
+}
+
 .faceboosvg {
     width: 44px;
     height: 44px;
@@ -574,6 +632,10 @@ footer {
 .instagramsvg {
     width: 44px;
     height: 44px;
+}
+
+.instagramsvg:hover {
+    color: var(--main-hovercolor-1);
 }
 
 .instagramspan {
@@ -602,6 +664,9 @@ footer {
 
 }
 
+.twittersvg:hover {
+    color: var(--main-hovercolor-1);
+}
 .gridspan2 {
 
     grid-column: 2;
@@ -626,6 +691,10 @@ footer {
 
 }   
 
+.gridspan2ul li a:hover {
+    color: var(--main-hovercolor-1);
+}
+
 .gridspan3 {
     
     grid-column: 3;
@@ -649,6 +718,10 @@ footer {
     flex-direction: column;
     margin-top: 30px;
 
+}
+
+.gridspan3ul li a:hover {
+    color: var(--main-hovercolor-1);
 }
 
 .gridspan4 {
