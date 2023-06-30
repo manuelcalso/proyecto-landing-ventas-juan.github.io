@@ -180,7 +180,7 @@ footer {
     border-radius: 10px;
     color: var(--main-backgroundcolor-7);
     transition-property: color;
-    transition-duration: 2s;
+    transition-duration: 750s;
 }
 
 .hnavegadoropciones1 {
@@ -204,7 +204,7 @@ footer {
 .hnavegadoropciones1 a:hover {
     color:var(--main-backgroundcolor-7);
     transition-property: color;
-    transition-duration: 2s;
+    transition-duration: 750ms;
 
 }
 
@@ -342,13 +342,13 @@ footer {
 .jumboemailbutton a:hover {
     font-size: large;
     transition-property: font-size;
-    transition-duration: 2s;
+    transition-duration: 750ms;
 }
 
 .jumboemailbutton button:hover {
     background-color: var(--main-backgroundcolor-7);
     transition-property: background-color;
-    transition-duration: 1s;
+    transition-duration: 750ms;
 
 }
 
@@ -456,7 +456,7 @@ footer {
     width: 220px;
     height: 100%;
     transition-property: height;
-    transition-duration: 2s;
+    transition-duration: 750ms;
 }
 
 
@@ -577,9 +577,11 @@ footer {
     
 }
 
-.buttton a:hover {
+.buttton:hover {
 
-    color: var(--main-hovercolor-1);
+    background-color: var(--main-hovercolor-1);
+    transition-property: all;
+    transition-duration: 750ms;
 
 }
 
