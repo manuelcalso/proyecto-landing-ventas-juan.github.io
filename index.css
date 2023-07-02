@@ -462,7 +462,7 @@ footer {
     width: 210px;
     height: 90%;
     justify-content: top;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     
 }
 
@@ -816,7 +816,7 @@ footer {
     }
 
     .librogrid img {
-        width: 73%;
+        width: 100%;
     }
 
     .adicionalimg .imagen2 {
@@ -874,7 +874,7 @@ footer {
     }
     
     .librogrid img {
-        width: 73%;
+        width: 100%;
     }
 
     .adicionalblog {
