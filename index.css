@@ -616,7 +616,7 @@ footer {
 }
 
 .buttton:hover svg {
-    left: -72%
+    left: -72%;
     transition-duration: 750ms;
 }
 
