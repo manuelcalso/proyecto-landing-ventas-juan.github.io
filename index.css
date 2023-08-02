@@ -31,27 +31,27 @@
 
 @font-face {
     font-family: 'Josefin Italic';
-    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Italic.ttf);
 }
 
 @font-face {
     font-family: 'Josefin Sans';
-    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Josefin Regular';
-    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Regular.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Josefin Light';
-    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Light.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Light.ttf);
 }
 
 @font-face {
     font-family: 'Josefin Medium';
-    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-Medium.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-Medium.ttf);
 }
 
 @font-face {
@@ -61,7 +61,7 @@
 
 @font-face {
     font-family: 'Josefin Extralight';
-    src: url(./fonts/fontss/Josefin_Sans/static/JosefinSans-ExtraLight.ttf);
+    src: url(./fonts/fontss/Josefin_Sans/JosefinSans-ExtraLight.ttf);
 }
 
 
@@ -282,14 +282,16 @@ footer {
     text-decoration: none;
     padding: 5px 0px 0px 0px;
     grid-column: 1;
+    margin-bottom: 50px;
+
     
 }
 
 .jumbotrongrid h1 {
     font-family: 'Josefin Sans';
     margin-top: 25px;
-    font-size: 50px;
-    
+    font-size: 60px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .jumbotrongrid p {
@@ -559,7 +561,7 @@ footer {
     width: 500px;
     height: 528px;
     margin-left: 50px;
-
+    
     
     
   
@@ -570,6 +572,7 @@ footer {
     margin-top: 50px;
     font-family: 'Josefin light';
     letter-spacing: 0.20rem;
+    text-shadow: 2px 2px var(--main-color-2);
     
 
 }
@@ -579,6 +582,7 @@ footer {
     margin-top: 20px;
     font-family: 'Josefin Regular';
     line-height: 30px;
+    text-shadow: 2px 2px var(--main-color-2);
 
 }
 
@@ -607,9 +611,23 @@ footer {
 .buttton:hover {
 
     background-color: var(--main-hovercolor-1);
-    transition-property: all;
     transition-duration: 750ms;
 
+}
+
+.buttton:hover svg {
+    left: -72%
+    transition-duration: 750ms;
+}
+
+.buttton:hover a {
+    width: 100%;
+    transition-duration: 750ms;
+}
+
+.buttton a .buttton svg {
+    transition: width 950ms ease-in 500ms,
+    left 600ms ease-out 550ms;
 }
 
 .sectionfooter {
@@ -650,7 +668,8 @@ footer {
 }
 
 .faceboosvg:hover {
-    color: var(--main-hovercolor-1)
+    color: var(--main-hovercolor-1);
+    transition-duration: 750ms;
 }
 
 .faceboosvg {
@@ -665,6 +684,7 @@ footer {
 
 .instagramsvg:hover {
     color: var(--main-hovercolor-1);
+    transition-duration: 750ms;
 }
 
 .instagramspan {
@@ -695,6 +715,7 @@ footer {
 
 .twittersvg:hover {
     color: var(--main-hovercolor-1);
+    transition-duration: 750ms;
 }
 .gridspan2 {
 
@@ -709,6 +730,7 @@ footer {
 .gridspan2title  {
     color: var(--main-backgroundcolor-3);
     font-family: 'Libre Bold';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .gridspan2ul li {
@@ -722,6 +744,7 @@ footer {
 
 .gridspan2ul li a:hover {
     color: var(--main-hovercolor-1);
+    transition-duration: 750ms;
 }
 
 .gridspan3 {
@@ -736,6 +759,7 @@ footer {
 .gridspan3title {
     color: var(--main-backgroundcolor-3);
     font-family: 'Libre Bold';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .gridspan3ul li {
@@ -751,6 +775,7 @@ footer {
 
 .gridspan3ul li a:hover {
     color: var(--main-hovercolor-1);
+    transition-duration: 750ms;
 }
 
 .gridspan4 {
