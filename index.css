@@ -1048,7 +1048,7 @@ footer {
         display: flex;        
     }
     
-    #iniciar-sesion {
+    #iniciar-sesion, #Registrate{
         display: none;
     }
    
