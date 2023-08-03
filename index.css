@@ -96,8 +96,10 @@ footer {
 
     width: auto;
     height: 421px;
-    background-color: var(--main-backgroundcolor-7);
-    
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #E86A33, #e5e5f7), repeating-radial-gradient(circle at center center, #E86A33, #E86A33, 33px, transparent 66px, transparent 33px);
+background-blend-mode: multiply;
 }
 
 
@@ -390,8 +392,10 @@ footer {
     height: auto;
     padding: auto 0px auto 0px;
     
-   
-    background-color: var(--main-backgroundcolor-5);
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 33px ), repeating-linear-gradient( #A2CDB055, #A2CDB0 );
+    
     
 }
 
