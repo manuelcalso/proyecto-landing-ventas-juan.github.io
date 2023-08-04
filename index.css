@@ -104,9 +104,6 @@ background-blend-mode: multiply;
 
 
 
-
-
-
 .hrelativo {
     
     position: fixed;
@@ -116,7 +113,10 @@ background-blend-mode: multiply;
 
     width: 100%;
     
-    background-color: var(--main-backgroundcolor-1);
+    background-color: #e5e5f7;
+    opacity: 0.9;
+    background-image: radial-gradient( ellipse farthest-corner at 4px 4px , #FFD89C, #FFD89C 50%, #e5e5f7 50%);
+    background-size: 4px 4px;
     color: var(--main-color-2);
     
     border-radius: 5px;
